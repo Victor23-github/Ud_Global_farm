@@ -223,13 +223,14 @@ h2 em {
 .hero-image {
   position: relative;
   min-height: 590px;
-  background: url("https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=85")
-    center 48% / cover;
+  background: url("./images/palm\ fruit.jpg") center 48% / cover;
+  /* background: url("https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=85") */
+  /* center 48% / cover; */
 }
 .hero-image::after {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(20, 32, 18, 0.07), transparent 40%);
+  background: linear-gradient(90deg, rgba(20, 32, 18, 0.322), transparent 40%);
   content: "";
 }
 .image-stamp {
@@ -341,12 +342,14 @@ h2 {
   background-image: url("https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=700&q=80");
 }
 .photo-palm-oil {
-  background-image: url("https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=700&q=80");
+  background-image: url("./images/palm_oil.jpg");
+  /* background-image: url("https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=700&q=80"); */
 }
-.photo-cocoa {
-  background-image: url("https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=700&q=80");
+.photo-coffee {
+  background-image: url("./images/coffee_bean.jpg");
+  /* background-image: url("https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=700&q=80"); */
 }
-.photo-plantain-coffee {
+.photo-plantain {
   background-image: url("https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=700&q=80");
 }
 .product-tag {
